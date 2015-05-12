@@ -1,6 +1,12 @@
 # Measuring UX
 
-Notes on the book Measuring the User Experience: Collecting, Analyzing, and Presenting Usability Metrics. Written by Tom Tullis and Bill Albert.
+Notes on the book [Measuring the User Experience: Collecting, Analyzing, and Presenting Usability Metrics](http://www.amazon.com/Measuring-User-Experience-Interactive-Technologies/dp/0123735580).
+
+## Contents
+
+- [What are UX metrics?](#what-are-ux-metrics)
+- [Variables in user testing](#variables-in-user-testing)
+- [Data types](#data-types)
 
 ## What are UX metrics?
 
@@ -28,10 +34,10 @@ Things you measure, success rates, number of errors, user satisfaction.
 
 All variables can be measured using one of four data types:
 
-1. Nominal
-2. Ordinal
-3. Interval
-4. Ratio
+1. [Nominal](#nominal)
+2. [Ordinal](#ordinal)
+3. [Interval](#interval)
+4. [Ratio](#ratio)
 
 ### Nominal
 
