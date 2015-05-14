@@ -13,15 +13,15 @@ Notes on the book [Measuring the User Experience: Collecting, Analyzing, and Pre
 
 All UX metrics must reveal something about the interaction between the user and the product. Some aspect of:
 
-- Effectiveness. Being able to complete a task.
-- Effciency. The amount of effort required to complete a task.
-- Satisfaction. The degree to which the user was happy with their experience while performing the task.
+- Effectiveness: Being able to complete a task.
+- Effciency: The amount of effort required to complete a task.
+- Satisfaction: The degree to which the user was happy with their experience while performing the task.
 
-They must also be quantifiable - they have to be turned into a number or counted in some way.
+UX metrics must also be quantifiable - they have to be turned into a number or counted in some way.
 
 ## Variables in user testing
 
-The are two types of variables, [independent](#independent) and [dependent](#dependent). When designing a UX study you should have a clear idea of what your variables will be.
+The are two types of variables in user testing, [independent](#independent) and [dependent](#dependent). When designing a UX study you should have a clear idea of what your variables will be.
 
 ### Independent
 
@@ -42,7 +42,7 @@ All variables can be measured using one of four data types:
 
 ### Nominal
 
-An unordered list of groups / categories. For example - Windows users, Mac users, and Linux users. Or users in different geographical locations. One groups is not inherently better than another.
+An unordered list of groups / categories. For example - Windows users, Mac users, and Linux users. Or users in different geographical locations. One group is not inherently better than another.
 
 These are typically [independent variables](#independent) used to segment data by different groups.
 
@@ -54,33 +54,33 @@ An ordered list of groups or categories. For example - A user rating of excellen
 
 The most common way to analyze ordinal data is "40% of users rate the site a excellent, 30% rate it good, 20% rate it fair, and 10% rate it poor".
 
-The relative distances between each point is not meaningful i.e. The design ranked 1st is not twice as good as the design ranked 2nd.
+The relative distances between each point is not meaningful i.e. The design ranked 1st is not *twice as good* as the design ranked 2nd.
 
 ### Interval
 
-A scale between to endpoints, where the distance between each endpoint is meaningful. Also see System Usability Scale (SUS).
+A scale between two endpoints, where the distance between each endpoint is meaningful. For example - a scale from *cold* to *hot*. Also see System Usability Scale (SUS).
 
 ### Ratio
 
 A scale between two endpoints, where the distance between each endpoint is meaningful, and one endpoint is absolute zero. Time is an example of how ratio data can be used in UX. Zero seconds left means a user has no time left to complete a task.
 
-Ratio data can be used to say 'on average, users complete the task twice as fast, using design 2'.
+Ratio data can be used to say "on average, users complete the task twice as fast, using design 2".
 
 ## Descriptive statistics
 
-Describes the data without saying anything about the larger population. Usually measures of central tendency.
+Describes the data without saying anything about the larger population. Usually [measures of central tendency](#measures-of-central-tendency).
 
 ### Measures of central tendency
 
-Central tendency is a single number representative of a set of numbers. Usually [mean](#mean), [median](#median), or [mode](#mode).
+Central tendency is a single number representative of a set of numbers. Usually a [mean](#mean), [median](#median), or [mode](#mode).
 
 #### Mean
 
-Also know as the average. Sum of all values divided by the number of values.
+Also know as the *average*. The mean is a sum of all values, divided by the number of values.
 
 #### Median
 
-The middle number if you put them in order. If there is no middle number, it's half way between the two middle numbers. Sometimes the [mean](#mean) can be skewed by large outlying values, this is where the median can be useful.
+The middle number if you put the data in order. If there is no middle number, it's half way between the two middle numbers. Sometimes the [mean](#mean) can be skewed by large outlying values, this is where the median can be useful.
 
 #### Mode
 
@@ -92,7 +92,7 @@ How much the data are spread across the range of values. For example "Do most us
 
 #### Range
 
-Distance between minimum and maximum values. Useful for decting outliers in a data set e.g. completion times. Also for sanity checking a data set e.g. The range is supposed to be 1 - 5, are there any 7's?
+Distance between minimum and maximum values. Useful for decting outliers in a data set which may skew your [mean](#mean). Range is also useful for sanity checking a data set. For example - the range is supposed to be 1 - 5, are there any 7's?
 
 #### Variance
 
